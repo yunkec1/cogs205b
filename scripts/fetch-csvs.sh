@@ -23,4 +23,5 @@ find "$TMP_DIR/unpacked" -maxdepth 1 -type f -name "*.csv" -exec cp {} "$DEST_DI
 cd "$REPO_ROOT"
 git add scripts/fetch-csvs.sh "data/$DATE_STR"/*.csv
 git commit -m "Add CSV files for $DATE_STR"
-git push origin main
+git branch -M main
+git push -u origin main
