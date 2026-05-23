@@ -1,0 +1,20 @@
+Implement the file bayes_factor.py and edit this exact file to satisfy all the tests in test_bayes_factor.py in the current task directory as written. 
+Do so while following the requirements exactly: 
+
+1. Define a class named BayesFactor. Handle invalid inputs with clear exceptions when appropriate.
+
+2. Implement the following methods with the exact names and signatures:
+   - likelihood(theta)
+   - evidence_slab()
+   - evidence_spike()
+   - bayes_factor()
+   
+3. Use the following prior specifications:
+   - slab prior: theta ~ U(0, 1)
+   - spike prior: theta ~ U(a, b), with a = 0.47 and b = 0.53
+
+4. Do not edit, delete, weaken, or bypass any tests in week08homework/tests/test_bayes_factor.py.
+Only edit bayes_factor.py.
+
+5. Do not change the constructor signature. Keep it exactly as BayesFactor(n, k).
+   
