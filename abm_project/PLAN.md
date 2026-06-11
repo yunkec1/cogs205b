@@ -630,7 +630,7 @@ The API-based implementation agent should implement `run_simulation.py` in this 
 7. Run:
 
 ```bash
-pytest tests/test_model.py -v
+python3 -m unittest discover -s tests -p "test_*.py" -v
 ```
 
 8. If tests fail, revise `run_simulation.py` only.
