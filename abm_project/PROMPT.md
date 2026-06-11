@@ -200,7 +200,7 @@ Because `p_decay = 0.05`, if there were no social adoption, the expected reading
 
 0.95^19 ≈ 0.377
 
-Therefore, natural decay alone should push the reading rate to around 0.36 after 20 weeks. We could include this in the test.
+Therefore, natural decay alone should push the reading rate to around 0.377 after 20 weeks. We could include this in the test.
 
 In the high-visibility condition, students are more likely to detect nearby non-reading behavior. Once some students stop reading, their neighbors are more likely to observe enough non-reading behavior to cross the social threshold. Therefore, reading rate should decline faster and reach 50% earlier than low visibility / natural decay alone..
 
